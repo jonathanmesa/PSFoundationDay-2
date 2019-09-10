@@ -1,5 +1,7 @@
-Get-Help get-service -Examples
-Get-Help Get-Service -full
-Get-Help Get-Service -Detailed
-Get-Help Get-Service -ShowWindow
-Get-Help Get-Service  -Online
+#About help topics:
+Use ISE console window and demo F1 on result
+
+get-help about_ in 
+
+#Now show the same not using ISE
+Get-Help 'about_Split' –ShowWindow
