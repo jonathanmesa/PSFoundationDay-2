@@ -1,1 +1,16 @@
 
+Get-ChildItem HKCU:\
+Get-ChildItem
+
+
+cd cert:
+ 
+cd currentuser
+ 
+cd root
+
+
+Get-ChildItem | ? Subject -like '*DigiCert*'
+
+Get-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-Name "fDenyTSConnections"
+
