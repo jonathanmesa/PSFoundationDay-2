@@ -2,7 +2,6 @@
 
 function Get-ServiceInfo
 {
-        Param ($svc, $computer)
     Get-Service -Name spooler -RequiredServices -ComputerName winazcontoso03
 } 
 
